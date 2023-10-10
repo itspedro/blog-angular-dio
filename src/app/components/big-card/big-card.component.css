@@ -1,0 +1,34 @@
+.big-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1rem;
+  width: 400px;
+  height: 450px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.big-card__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.big-card__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  height: 100%;
+}
+
+.big-card__text > h2 > a {
+  font-size: 2rem;
+}
+
+.big-card__text > p > a {
+  color: gray;
+}
+

@@ -1,0 +1,19 @@
+<app-hub-title></app-hub-title>
+<div class="articles__container">
+  <div class="articles__fixed">
+    <app-big-card
+      [id]="fixedArticle.id"
+      [imgCover]="fixedArticle.image"
+      [title]="fixedArticle.title"
+      [description]="fixedArticle.description"
+    ></app-big-card>
+  </div>
+  <div class="articles__main">
+    <app-small-card
+      *ngFor="let article of articles"
+      [id]="article.id"
+      [imgCover]="article.image"
+      [title]="article.title"
+    ></app-small-card>
+  </div>
+</div>

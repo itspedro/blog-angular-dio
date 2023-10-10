@@ -1,0 +1,10 @@
+.hub-title__container {
+  margin: 1rem;
+}
+.hub-title__container > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  font-size: 10rem;
+  font-weight: bold;
+}

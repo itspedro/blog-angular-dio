@@ -1,0 +1,37 @@
+.small-card__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-card__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0;
+  width: 550px;
+  height: 150px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.small-card__image > img {
+  object-fit: cover;
+}
+
+.small-card__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+.small-card__text > h2 > a {
+  font-size: 1.2rem;
+}
+
+hr {
+  color: gray;
+}

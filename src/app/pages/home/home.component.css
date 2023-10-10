@@ -1,0 +1,10 @@
+.articles__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.articles__main {
+  display: flex;
+  flex-direction: column;
+}
